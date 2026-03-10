@@ -1,3 +1,4 @@
+# kubectl create secret tls tls-argocd-ingress --cert=STAR_singhritesh85_com.crt --key=mykey.key -n argocd
 apiVersion: gateway.networking.k8s.io/v1beta1
 kind: Gateway
 metadata:
